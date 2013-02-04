@@ -6,7 +6,7 @@
 
 hi StatusLine           color: #d0d0d0 !important; background-color: #080808 !important; font-weight: bold !important;
 hi Normal               color: #d0d0d0; background: #1c1c1c; font-weight: bold !important;
-hi CompItem[selected]   color: #ffaf00; background: #303030; 
+hi CompItem[selected]   color: #ffffaf; background: #303030; 
 hi CompDesc             color: #c6c6c6; width: 50%; font-weight: normal !important;
 hi CompTitle            color: #87afff !important; background: #080808 !important;
 hi GradientLeft         background-color: white;
