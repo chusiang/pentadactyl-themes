@@ -7,8 +7,9 @@
 hi StatusLine           color: #d0d0d0 !important; background-color: #080808 !important; font-weight: bold !important;
 hi Normal               color: #d0d0d0; background: #1c1c1c; font-weight: bold !important;
 hi CompItem[selected]   color: #ffffaf; background: #303030; 
-hi CompDesc             color: #c6c6c6; width: 50%; font-weight: normal !important;
-hi CompTitle            color: #87afff !important; background: #080808 !important;
+hi CompDesc             color: #8787af; width: 50%; font-weight: normal !important;
+hi CompTitle            color: #8787af !important; background: #080808 !important;
+hi -a CompTitleSep      background:-moz-linear-gradient(60deg, #8787af, white); height:1px;
 hi GradientLeft         background-color: white;
 hi GradientRight        background-color: black;
 hi Title                color: #87afff; background: #1c1c1c; font-weight: bold;
@@ -27,10 +28,21 @@ hi URL                  text-decoration: none; color: #87afff; background: inher
 hi URL:hover            text-decoration: underline; cursor: pointer;
 hi InfoMsg				color: #ffffff !important; background: #1c1c1c !important;
 hi LineNr               color: #87afff !important; background: #1c1c1c !important;
+hi WarningMsg           color: #ffffff; background: #ffdb00 !important; font-weight: bold;
+hi -l WarningMsg StatusWarningMsg
+hi -l WarningMsg CmdWarningMsg
+hi ErrorMsg             color: #ffffff !important; background: #ff0000 !important; font-weight:bold;
+hi -l ErrorMsg StatusErrorMsg
+hi -l ErrorMsg CmdErrorMsg
 hi ModeMsg              color: #ffd700 !important; background: #1c1c1c !important;
 hi MoreMsg              color: #303030 !important; background: #1c1c1c !important;
+hi -l Cmd InfoMsg       color: #cccccc !important;
+hi -l InfoMsg StatusInfoMsg
+hi -l InfoMsg CmdInfoMsg
 hi Question             color: #303030 !important; background: #1c1c1c !important; font-weight: bold !important;
-hi WarningMsg           color: #ff0000 !important; background: #5f0000 !important;
+hi -l Question StatusQuestion
+hi -l Question CmdQuestion
+
 hi StatusQuestion		color: #303030 !important; background: inherit !important;
 
 " vim: set ft=pentadactyl:ts=4:sw=4:tw=0:
