@@ -1,9 +1,9 @@
 Pentadactyl Themes
 ========
 
-Fu colorscheme for pentadactyl.
+The ColorScheme for Pentadactyl.
 
-INSTALL
+Howto
 --------
 
 Copy *.penta to `~/.pentadactyl/colors/` or use command `:he colorscheme` to get some help.
